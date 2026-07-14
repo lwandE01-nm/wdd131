@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Discover Eswatini, a beautiful country in Southern Africa, through its geography, culture, and weather.">
+    <meta name="author" content="Nothando Mabaso">
+
+    <title>Eswatini | Place Page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/place.css">
+
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+
+<header>
+    <h1>Eswatini</h1>
+</header>
+
+<main>
+
+<picture class="hero">
+    <source media="(min-width:768px)" srcset="images/hero-large.webp">
+    <img src="hero-small.webp" alt="Beautiful landscape of Eswatini">
+</picture>
+
+<section class="card">
+
+<h2>Data</h2>
+
+<ul>
+<li><strong>Country:</strong> Eswatini</li>
+<li><strong>Capital:</strong> Mbabane</li>
+<li><strong>Population:</strong> 1.2 Million</li>
+<li><strong>Area:</strong> 17,364 km²</li>
+<li><strong>Languages:</strong> siSwati, English</li>
+<li><strong>Currency:</strong> Lilangeni (SZL)</li>
+<li><strong>Time Zone:</strong> UTC +2</li>
+</ul>
+
+</section>
+
+<section class="card weather">
+
+<h2>Weather</h2>
+
+<img src="weather.svg" alt="Weather Icon" class="weather-icon">
+
+<ul>
+<li><strong>Temperature:</strong> <span id="temperature">8</span>°C</li>
+
+<li><strong>Conditions:</strong> Partly Cloudy</li>
+
+<li><strong>Wind:</strong> <span id="windspeed">15</span> km/h</li>
+
+<li><strong>Wind Chill:</strong>
+<span id="windchill"></span></li>
+
+</ul>
+
+</section>
+
+</main>
+
+<footer>
+
+<p>&copy; <span id="year"></span> | Nothando Mabaso | Eswatini</p>
+
+<p id="lastModified"></p>
+
+</footer>
+
+</body>
+</html>
