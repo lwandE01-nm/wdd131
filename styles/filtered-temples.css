@@ -46,9 +46,13 @@ header {
 
 /* ---------- Navigation ---------- */
 
-.navigation {
-    display: none;
+nav {
+    display: flex;
     flex-direction: column;
+}
+
+.hide {
+    display: none;
 }
 
 .navigation.open {
