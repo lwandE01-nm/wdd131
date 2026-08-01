@@ -124,3 +124,25 @@ footer {
         justify-content: flex-start;
     }
 }
+.confirmation {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,.15);
+}
+
+.confirmation h2 {
+    margin-bottom: 1rem;
+}
+
+.confirmation p {
+    margin-bottom: 1rem;
+}
+
+.confirmation .submit-btn {
+    display: inline-block;
+    width: auto;
+    text-decoration: none;
+    padding: 1rem 2rem;
+}
