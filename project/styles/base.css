@@ -258,3 +258,20 @@ color:#d63384;
 font-weight:bold;
 
 }
+.gallery{
+padding:2rem 1rem;
+text-align:center;
+}
+
+.gallery-grid{
+display:grid;
+grid-template-columns:1fr;
+gap:1rem;
+margin-top:1rem;
+}
+
+.gallery-grid img{
+width:100%;
+border-radius:10px;
+box-shadow:0 3px 8px rgba(0,0,0,.2);
+}
