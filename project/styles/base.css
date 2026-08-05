@@ -159,3 +159,47 @@ footer {
 footer a {
     color: white;
 }
+.center{
+text-align:center;
+margin-bottom:1rem;
+}
+
+.filters{
+display:flex;
+justify-content:center;
+gap:1rem;
+flex-wrap:wrap;
+margin-bottom:2rem;
+}
+
+.filters button{
+
+padding:.8rem 1.5rem;
+
+border:none;
+
+background:#d63384;
+
+color:white;
+
+border-radius:5px;
+
+cursor:pointer;
+
+}
+
+.filters button:hover{
+
+background:#ad1457;
+
+}
+
+#services-container{
+
+display:grid;
+
+gap:2rem;
+
+padding:1rem;
+
+}
