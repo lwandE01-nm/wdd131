@@ -1,0 +1,161 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+:root {
+    --primary: #d63384;
+    --secondary: #fff0f6;
+    --accent: #ffd700;
+    --dark: #333;
+    --light: #ffffff;
+    --max-width: 1100px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: var(--secondary);
+    color: var(--dark);
+    line-height: 1.6;
+}
+
+/* Header */
+
+header {
+    background: var(--primary);
+    color: white;
+    padding: 1rem;
+}
+
+header h1 {
+    text-align: center;
+}
+
+/* Navigation */
+
+#menu {
+    display: block;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    margin: auto;
+}
+
+.navigation {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.navigation.open {
+    display: flex;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    padding: .75rem;
+    transition: .3s;
+}
+
+.navigation a:hover {
+    background: white;
+    color: var(--primary);
+    border-radius: 5px;
+}
+
+/* Hero */
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    display: block;
+}
+
+.hero-text {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.hero-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .8rem 1.5rem;
+    background: var(--primary);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #ad1457;
+}
+
+/* Sections */
+
+main {
+    max-width: var(--max-width);
+    margin: auto;
+}
+
+section {
+    padding: 2rem 1rem;
+}
+
+.about,
+.featured {
+    text-align: center;
+}
+
+/* Featured Services */
+
+#featured-services {
+    display: grid;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.service-card {
+    background: white;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,.15);
+}
+
+.service-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.service-card h3 {
+    color: var(--primary);
+}
+
+/* Footer */
+
+footer {
+    background: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+footer a {
+    color: white;
+}
