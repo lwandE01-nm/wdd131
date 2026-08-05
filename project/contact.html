@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Book a mobile nail appointment with NailsbyNotty in Eswatini. Choose your preferred service, date, and send your booking request online.">
+
+    <meta name="author" content="Nothando Mabaso">
+
+    <title>Book Appointment | NailsbyNotty</title>
+
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <script src="scripts/contact.js" defer></script>
+</head>
+
+<body>
+
+<header>
+
+<h1>NailsbyNotty</h1>
+
+<button id="menu">☰</button>
+
+<nav class="navigation">
+
+<a href="index.html">Home</a>
+
+<a href="services.html">Services</a>
+
+<a href="contact.html">Book</a>
+
+<a href="references.html">References</a>
+
+</nav>
+
+</header>
+
+<main>
+
+<h2>Book an Appointment</h2>
+
+<form id="bookingForm">
+
+<label for="name">Full Name</label>
+<input type="text" id="name" required>
+
+<label for="phone">Phone Number</label>
+<input type="tel" id="phone" required>
+
+<label for="service">Choose a Service</label>
+
+<select id="service" required>
+
+<option value="">Select a Service</option>
+
+<option>Gel Tips - E350</option>
+
+<option>Overlay - E280</option>
+
+<option>Refill - E250</option>
+
+<option>Gel Toes - E160</option>
+
+<option>Soak Off - E60</option>
+
+<option>Nail Fix - E30</option>
+
+</select>
+
+<label for="date">Preferred Date</label>
+
+<input type="date" id="date" required>
+
+<label for="message">Additional Information</label>
+
+<textarea
+id="message"
+rows="5"
+placeholder="Tell us anything you'd like us to know..."></textarea>
+
+<input
+type="submit"
+value="Book Appointment"
+class="btn">
+
+</form>
+
+<p id="confirmation"></p>
+
+</main>
+
+<footer>
+
+<p>&copy; <span id="year"></span> NailsbyNotty | Nothando Mabaso | Eswatini</p>
+
+<p id="lastModified"></p>
+
+<p><a href="references.html">References</a></p>
+
+</footer>
+
+</body>
+</html>
