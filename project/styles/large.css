@@ -34,3 +34,6 @@
 .gallery-grid{
 grid-template-columns:repeat(3,1fr);
 }
+.testimonial-container{
+grid-template-columns:repeat(3,1fr);
+}
